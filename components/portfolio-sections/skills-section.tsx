@@ -4,13 +4,13 @@ import { Badge } from "@/components/ui/badge"
 export function SkillsSection() {
   const skillCategories = [
     {
-      title: "Programming & Data Science",
+      title: "Programming",
       skills: ["Python", "Java", "C++", "R", "JavaScript", "SQL", "MATLAB"],
       frameworks: ["Pandas", "NumPy", "Flask", "MongoDB", "Tableau"],
     },
     {
       title: "Machine Learning & AI",
-      skills: ["Statistical ML", "NLP", "LLMs", "Deep Learning", "Computer Vision"],
+      skills: ["Statistical ML", "NLP", "LLMs", "Deep Learning"],
       frameworks: ["TensorFlow", "PyTorch", "spaCy", "Transformers", "scikit-learn"],
     },
     {
