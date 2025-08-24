@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated to sophisticated royal blue color scheme - classy not flashy */
+  /* Light mode */
   --background: oklch(0.98 0.01 240);
   --foreground: oklch(0.12 0.02 240);
   --card: oklch(0.99 0.005 240);
@@ -41,7 +41,7 @@
 }
 
 .dark {
-  /* Updated dark mode to sophisticated royal blue theme */
+  /* Dark Mode*/
   --background: oklch(0.06 0.02 240);
   --foreground: oklch(0.94 0.01 240);
   --card: oklch(0.08 0.02 240);
@@ -120,17 +120,16 @@
     @apply border-border outline-ring/50;
   }
   body {
-    /* Simplified tech-focused background with clean geometric pattern */
-    /* Subtle grid pattern for tech aesthetic */
+    
     background: linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px),
-      linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px), /* Clean gradient without pink elements */
+      linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px), 
       linear-gradient(
         135deg,
-        oklch(0.95 0.02 240) 0%,
-        oklch(0.92 0.04 235) 25%,
-        oklch(0.88 0.06 230) 50%,
-        oklch(0.92 0.04 225) 75%,
-        oklch(0.95 0.02 220) 100%
+        oklch(82.937% 0.08318 239.859) 0%,
+        oklch(82.937% 0.08318 239.859) 25%,
+        oklch(82.937% 0.08318 239.859) 50%,
+        oklch(82.937% 0.08318 239.859) 75%,
+        oklch(82.937% 0.08318 239.859) 100%
       );
     background-size: 40px 40px, 40px 40px, 100% 100%;
     background-attachment: fixed;
@@ -138,9 +137,9 @@
     @apply text-foreground;
   }
 
-  /* Clean dark mode with tech grid pattern */
+
   .dark body {
-    /* Subtle grid pattern for tech aesthetic */
+    /* for dark mode grid */
     background: linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px),
       linear-gradient(rgba(59, 130, 246, 0.08) 1px, transparent 1px), /* Clean dark gradient */
       linear-gradient(
@@ -158,7 +157,7 @@
 }
 
 @layer utilities {
-  /* Optimized gradient utilities with simpler calculations */
+  /* gradient body*/
   .bg-gradient-primary {
     background: linear-gradient(135deg, #1e40af, #0ea5e9);
   }

@@ -17,8 +17,8 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Sujal Gour - Quantitative Finance Portfolio",
-  description: "Portfolio of Sujal Gour - Quantitative Finance, Data Science, and Algorithmic Trading",
+  title: "Sujal Gour - Portfolio",
+  description: "Portfolio of Sujal Gour - Mathematics, Computer Science, Economics",
   generator: "v0.app",
 }
 
