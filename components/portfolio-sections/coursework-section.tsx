@@ -27,21 +27,21 @@ export function CourseworkSection() {
     {
       title: "Economics & Finance",
       icon: TrendingUp,
-      courses: ["Quantitative Methods in Business", "Microeconomics", "Macroeconomics", "Econometrics", "Game Theory"],
+      courses: ["Quantitative Methods in Business", "Microeconomics", "Macroeconomics", "Econometrics", "Game Theory", "International Markets"],
       color: "from-blue-600 to-slate-600",
     },
   ]
 
   const honorsAndAwards = [
-    "Hackarama Winner (LPL Financial)",
     "Jane Street Estimathon Winner",
     "Best Stock Pitch Award (OXY)",
     "UC Investment Academy Fellow",
-    "Summer Bridge Scholar (Top 1%)",
-    "Provost Honor",
+    "Summer Bridge Scholar (Top 1% First Gen student)",
+    "Provost Honor (UCSD)",
     "HPAIR Scholar",
-    "Cal Hacks Participant",
-    "Hacklytics 2025 (Georgia Tech)",
+    "Cal Hacks Winner",
+    "Hackarama (LPL financial Winner)",
+    "IAAC Broze Mendal",
   ]
 
   return (
@@ -66,11 +66,11 @@ export function CourseworkSection() {
           <div className="inline-flex items-center gap-2 mb-4">
             <BookOpen className="h-6 w-6 text-sky-400" />
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-sky-300 to-blue-400 bg-clip-text text-transparent">
-              Academic Foundation
+              Academic Coursework
             </h2>
           </div>
           <p className="text-lg text-white/90 max-w-2xl mx-auto leading-relaxed font-medium">
-            Coursework and recognition in quantitative finance, mathematics, and computational methods.
+            Courses taken at UC San Diego with my interest in Math-CS and Economics.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ export function CourseworkSection() {
               <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 mb-2 mx-auto">
                 <Award className="h-5 w-5 text-white" />
               </div>
-              <CardTitle className="text-lg font-medium text-white/95">Academic Recognition</CardTitle>
+              <CardTitle className="text-lg font-medium text-white/95">Honors and Awards</CardTitle>
             </CardHeader>
             <CardContent className="pt-0">
               <div className="flex flex-wrap gap-2 justify-center max-w-4xl mx-auto">
