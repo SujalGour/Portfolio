@@ -21,7 +21,7 @@ export function Header() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
 
-      // Update active section based on scroll position
+      
       const sectionElements = sections.map((section) => ({
         id: section.id,
         element: document.getElementById(section.id),
