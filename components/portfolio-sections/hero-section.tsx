@@ -27,7 +27,7 @@ export function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-24">
           <div className="flex-shrink-0">
             <div className="relative">
-              <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-sky-400/60 shadow-2xl">
+              <div className="relative w-110 h-110 rounded-full overflow-hidden border-4 border-sky-400/60 shadow-2xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-blue-900/20"></div>
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_3353.JPG-NDM0kaWjqHmUGowMi76aKDLdZyhu2r.jpeg"
