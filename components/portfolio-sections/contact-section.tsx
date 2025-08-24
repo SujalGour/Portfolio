@@ -15,7 +15,7 @@ export function ContactSection() {
             <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               I'm always interested in discussing quantitative finance, algorithmic trading, and innovative technology
-              projects. Whether you're looking to collaborate or just want to chat about markets and data science, feel
+              projects. Whether you're looking to collaborate or just want to chat about markets, feel
               free to reach out.
             </p>
 
