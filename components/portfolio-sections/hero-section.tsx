@@ -31,7 +31,7 @@ export function HeroSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-blue-900/20"></div>
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_3353.JPG-NDM0kaWjqHmUGowMi76aKDLdZyhu2r.jpeg"
-                  alt="Sujal Gour - Professional headshot at UC San Diego campus"
+                  alt="Sujal Gour -  Photo at UC San Diego campus"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -53,7 +53,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-xl md:text-2xl text-sky-200 mb-6 font-medium drop-shadow-lg">
-              Quantitative Finance • Data Science • Machine Learning
+              Quantitative Research • Mathematics • Finance
             </p>
 
             <div className="mb-8">
@@ -67,7 +67,7 @@ export function HeroSection() {
                   <div className="w-2 h-2 bg-sky-400 rounded-full"></div>
                   <span className="text-sm font-medium">Started: Sep 2023</span>
                 </div>
-                <div className="w-1 h-1 bg-sky-400/60 rounded-full"></div>
+                
                 <div className="flex items-center gap-2 text-sky-300/90">
                   <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
                   <span className="text-sm font-medium">Expected: Dec 2026</span>
@@ -76,9 +76,9 @@ export function HeroSection() {
             </div>
 
             <p className="text-lg text-sky-100/90 mb-10 leading-relaxed font-light">
-              Specializing in algorithmic trading and quantitative analysis. Passionate about leveraging data science
-              and machine learning in financial markets with hands-on experience in private equity and quantitative
-              trading.
+              Finance first, math always: revenue drivers → DCF/comps → scenario & sensitivity. On the quant side, I validate ideas with analysis, factor exposure checks, realistic costs, and risk control. 
+              Goal: models that explain before they predict.
+              Welcome to my corner of the web! Build this so I can get over my boring resume. 
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
