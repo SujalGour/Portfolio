@@ -9,9 +9,9 @@ export function ExperienceSection() {
       company: "Triton Quantitative Trading",
       period: "Jan 2024 - Present",
       description:
-        "Developed and deployed live quantitative trading algorithms on QuantConnect using Python, NumPy, and Pandas. Applied advanced statistical machine learning techniques to generate alpha and improve Sharpe ratio.",
-      skills: ["Python", "QuantConnect", "Machine Learning", "Risk Management"],
-      metrics: { sharpe: "1.85", alpha: "12.4%", strategies: "8+" },
+        "Developed and deployed live quantitative trading algorithms on QuantConnect using Python, NumPy, and Pandas. Applied advanced statistical techniques to generate alpha and improve Sharpe ratio.",
+      skills: ["Python", "QuantConnect", "Algorithms", "Risk Management"],
+      metrics: { sessions: "1", blogs: "1", events: "15+" },
       icon: TrendingUp,
       color: "from-emerald-600/30 via-blue-700/40 to-slate-800/50",
       bgBlend: "bg-gradient-to-br from-emerald-500/20 to-blue-900/60",
@@ -35,7 +35,7 @@ export function ExperienceSection() {
       description:
         "Recognized with Best Stock Pitch Award for Occidental Petroleum (OXY). Supported portfolio management by executing trades and conducting risk assessments using Monte Carlo simulations.",
       skills: ["Equity Valuation", "Monte Carlo", "Portfolio Management", "Risk Assessment"],
-      metrics: { award: "Best Pitch", trades: "50+", models: "Monte Carlo" },
+      metrics: { award: "Best Pitch", sessions: "8+", models: "Monte Carlo" },
       icon: BarChart3,
       color: "from-amber-600/30 via-blue-700/40 to-slate-800/50",
       bgBlend: "bg-gradient-to-br from-amber-500/20 to-blue-900/60",
@@ -54,7 +54,7 @@ export function ExperienceSection() {
       </div>
 
       <div className="container mx-auto max-w-6xl relative z-10">
-        <h2 className="text-4xl font-bold text-center mb-16 text-white drop-shadow-lg">Experience</h2>
+        <h2 className="text-4xl font-bold text-center mb-16 text-white drop-shadow-lg">Technical Experiences</h2>
 
         <div className="relative">
           <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-400 via-blue-600 to-blue-800 rounded-full"></div>
