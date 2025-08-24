@@ -45,12 +45,12 @@ export function ProjectsSection() {
     },
     {
       title: "Grocify",
-      subtitle: "Cal Hacks Berkeley Winner",
+      subtitle: "Cal Hacks",
       year: "2024",
       description:
         "Smart kitchen assistant that tracks expiry dates, dietary restrictions, and freshness status. Features barcode scanning, personalized recipe suggestions, and food waste reduction. Awarded by Major League Hacking for innovative food waste solution.",
-      tech: ["Python", "Flask", "React", "MongoDB", "Computer Vision", "AI"],
-      metrics: { users: "200+", reduction: "25%", uptime: "98%" },
+      tech: ["Python", "Flask", "React", "MongoDB", "AI"],
+      metrics: { Award: "MLH winner", task: "Inventory track", API: "Barcode scanner" },
       icon: Utensils,
       links: {
         github: "https://github.com/SujalGour/Grocify",
@@ -62,11 +62,11 @@ export function ProjectsSection() {
     {
       title: "PhishNet",
       subtitle: "AI-powered Chrome Extension - Hacklytics 2025",
-      year: "2024",
+      year: "2025",
       description:
         "AI-powered Chrome extension that detects phishing threats in emails, tweets, and URLs. Features ensemble ML models, interactive security quizzes, and explainability panels. Published on Chrome Web Store with multi-model validation system.",
       tech: ["Python", "JavaScript", "Machine Learning", "NLP", "Chrome Extension"],
-      metrics: { detection: "92%", falsePos: "5%", store: "Published" },
+      metrics: { detection: "92%", falsePos: "5%", hackathon: "At GTech" },
       icon: Shield,
       links: {
         github: "https://github.com/SujalGour/PhishNet",
@@ -78,7 +78,7 @@ export function ProjectsSection() {
     {
       title: "Dishcovery",
       subtitle: "Recipe Discovery Platform",
-      year: "2024",
+      year: "2025",
       description:
         "Intelligent recipe discovery platform that helps users find personalized meal suggestions based on available ingredients, dietary preferences, and cooking skill level. Built for hackathon with focus on reducing food waste.",
       tech: ["JavaScript", "React", "Node.js", "API Integration", "Machine Learning"],
@@ -94,7 +94,7 @@ export function ProjectsSection() {
       subtitle: "QuantConnect Platform",
       year: "2024",
       description:
-        "Engineered momentum & mean reversion strategies with institutional-grade risk management. Implemented volatility targeting, position sizing, and daily performance reporting with comprehensive backtesting framework.",
+        "Trading system using quantitative analysis and machine learning to develop and backtest algorithmic trading strategies.",
       tech: ["Python", "QuantConnect", "Statistical Modeling", "Risk Management"],
       metrics: { strategies: "Multiple", backtests: "Extensive", controls: "Risk" },
       icon: Zap,
@@ -103,15 +103,15 @@ export function ProjectsSection() {
     },
     {
       title: "Fisher Chess Engine",
-      subtitle: "Custom Chess Variant AI",
-      year: "2023",
+      subtitle: "Random Chess (Chess960) engine",
+      year: "2025",
       description:
-        "AI chess engine specifically designed for Fischer Random Chess (Chess960) with minimax algorithm and alpha-beta pruning. Supports all 960 starting positions with advanced position evaluation.",
-      tech: ["C++", "Algorithm Design", "Game Theory", "AI", "Minimax"],
-      metrics: { positions: "960", depth: "8+", algorithm: "Minimax" },
+        "AI chess engine specifically designed for Fischer Random Chess (Chess960) with minimax algorithm and alpha-beta pruning. Supports all 960 starting positions with advanced position evaluation. I am improving it at this point a noob can beat it",
+      tech: ["Python", "Algorithm Design", "Game Theory", "Chessprogramming"],
+      metrics: { positions: "960", depth: "6+", Can_you_beat_it: "For sure" },
       icon: Brain,
       links: { status: "Local Development" },
-      command: "$ ./chess_engine --fischer-random --depth=8 --analyze",
+      command: "$ ./chess_engine --fischer-random --depth=6 --analyze",
     },
   ]
 
@@ -119,7 +119,7 @@ export function ProjectsSection() {
     {
       title: "CrowdStrike Equity Analysis",
       subtitle: "Comprehensive DCF Valuation",
-      year: "2024",
+      year: "2025",
       description:
         "End-to-end investment analysis from deal sourcing through valuation. Screened 10 companies, selected CrowdStrike for deep research, and built 5-year DCF model with detailed financial projections and WACC calculations.",
       valuation: "$108",
@@ -150,7 +150,7 @@ export function ProjectsSection() {
     {
       title: "HPAIR Sustainability Case Study",
       subtitle: "Green Hydrogen & Decarbonization Policy",
-      year: "2024",
+      year: "2023",
       description:
         "Developed scalable decarbonization solution for developing countries using green hydrogen technology. Proposed innovative 'Green Tax' policy framework for blended finance approach to fund sustainable energy transitions.",
       valuation: "Policy Framework",
@@ -191,7 +191,7 @@ export function ProjectsSection() {
         <div className="text-center mb-10">
           <h2 className="text-4xl font-bold mb-3 text-gradient">Project Portfolio</h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto mb-6 font-medium">
-            Innovative solutions spanning quantitative finance, algorithmic trading, and cutting-edge technology
+            Projects in tech and finance domains, skills in software development, data analysis, and financial modeling.
           </p>
 
           <div className="flex justify-center mb-6">
